@@ -5,14 +5,14 @@ public class main
 {
     public static void main(String[] args)
     {
-        String chain;
-        Scanner scan = new Scanner(System.in);
+        String chain; /*String zum speichern der Eingabe*/
+        Scanner scan = new Scanner(System.in); //Scanner zum Einlesen
 
-        System.out.print("Zeichenkette eingeben: ");
-        chain = scan.next();
+        System.out.print("Zeichenkette eingeben: "); //Ausgabe
+        chain = scan.next(); //Einlesen und übergeben
 
-        chain = chain.toUpperCase();
+        chain = chain.toUpperCase(); //Kleine zu Großbuchstaben
 
-        System.out.println(chain);
+        System.out.println(chain); //Ausgabe Großbuchstaben
     }
 }
