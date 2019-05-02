@@ -11,7 +11,7 @@ public class main
         System.out.print("Zeichenkette eingeben: "); //Ausgabe
         chain = scan.next(); //Einlesen und übergeben
 
-        chain = chain.toUpperCase(); //Kleine zu Großbuchstaben
+        chain = chain.toUpperCase(); //Kleine zu Großenbuchstaben
 
         System.out.println(chain); //Ausgabe Großbuchstaben
     }
