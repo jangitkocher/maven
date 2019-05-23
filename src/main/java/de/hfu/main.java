@@ -3,9 +3,10 @@ import java.util.Scanner;
 
 public class main
 {
+	/**test*/
     public static void main(String[] args)
     {
-        String chain; /*String zum speichern der Eingabe*/
+        String chain; /**String zum speichern der Eingabe*/
         Scanner scan = new Scanner(System.in); //Scanner zum Einlesen
 
         System.out.print("Zeichenkette eingeben: "); //Ausgabe
